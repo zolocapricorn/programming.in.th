@@ -1,2 +1,3 @@
-a, b = int(input()), int(input())
-print(a+b)
+def main(a, b):
+  return a+b
+print(main(int(input()), int(input())))
