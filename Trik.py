@@ -1,4 +1,4 @@
-def main(alphabet):
+def trik(alphabet):
     ball = [1, 2, 3]
     for i in alphabet:
         if i == "A":
@@ -13,7 +13,8 @@ def main(alphabet):
             point = ball[2]
             ball[2] = ball[0]
             ball[0] = point
-    for i in range(len(ball)):
-        if ball[i] == 1:
-            print(i + 1)
-main(input())
+    for position in range(len(ball)):
+        if ball[position] == 1:
+            print(position + 1)
+trik(input())
+
