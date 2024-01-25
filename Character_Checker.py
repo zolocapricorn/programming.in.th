@@ -1,8 +1,9 @@
-def main(sentence):
+def character_checker(sentence):
     if sentence.upper() == sentence:
         print("All Capital Letter")
     elif sentence.lower() == sentence:
         print("All Small Letter")
     else:
         print("Mix")
-main(input())
+character_checker(input())
+
