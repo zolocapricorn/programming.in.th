@@ -1,4 +1,5 @@
 import math
-def main(number):
+def gcd(number):
     print(math.gcd(int(number[0]), int(number[1])))
-main(input().split())
+gcd(input().split())
+
