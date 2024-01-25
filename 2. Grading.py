@@ -1,20 +1,19 @@
 def main(keep, mid, last):
     summ = keep + mid + last
     if summ >= 80:
-        print("A")
+        return "A"
     elif summ >= 75:
-        print("B+")
+        return "B+"
     elif summ >= 70:
-        print("B")
+        return "B"
     elif summ >= 65:
-        print("C+")
+        return "C+"
     elif summ >= 60:
-        print("C")
+        return "C"
     elif summ >= 55:
-        print("D+")
+        return "D+"
     elif summ >= 50:
-        print("D")
-    else:
-        print("F")
+        return "D"
+    return "F"
+print(main(int(input()), int(input()), int(input())))
 
-main(int(input()), int(input()), int(input()))
