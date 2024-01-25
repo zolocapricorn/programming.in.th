@@ -1,7 +1,7 @@
-def main(apb):
+def okviri(apb):
     sn = "#"
     pf = 2
     pm = 3
     for a in range(len(apb)):
         print(("*"*pf) + )
-main(input())
+okviri(input())
