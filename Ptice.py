@@ -1,4 +1,4 @@
-def main(number, alphabet):
+def ptice(number, alphabet):
     Adrian = ["A", "B", "C"]
     Bruno = ["B", "A", "B", "C"]
     Goran = ["C", "C", "A", "A", "B", "B"]
@@ -19,5 +19,5 @@ def main(number, alphabet):
         print("Bruno")
     if count_G == max(count_A, count_B, count_G):
         print("Goran")
-    
-main(int(input()), input())
+ptice(int(input()), input())
+
