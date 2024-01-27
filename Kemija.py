@@ -1,4 +1,6 @@
-def main(code, count, result):
+def kemija(code):
+    count = 0
+    result = []
     while count != len(code):
         if code[count] in ["a", "e", "i", "o", "u"]:
             result.append(code[count])
@@ -7,4 +9,5 @@ def main(code, count, result):
             result.append(code[count])
             count += 1
     print(*result, sep="")
-main(input(), 0, [])
+kemija(input())
+
