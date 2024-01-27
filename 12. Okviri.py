@@ -5,3 +5,4 @@ def okviri(apb):
     for a in range(len(apb)):
         print(("*"*pf) + )
 okviri(input())
+
